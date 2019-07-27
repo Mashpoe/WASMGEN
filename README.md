@@ -5,7 +5,7 @@ With the advent of WebAssembly, languages other than JavaScript can finally run 
 
 Assemblers are not ideal for JIT compilers, especially when they're running on the web because they have overhead and make your interpreter much larger. This simple tool was made for C programs to quickly produce binary-formatted WebAssembly, rather than producing WebAssembly in text form or LLVM IR code that will be run through an assembler.
 
-This tool doesn't let you use WebAssembly in text form, but it does make the binary format much more readable to humans and easier to edit.
+This tool doesn't let you use WebAssembly in text form, but it does make the binary format much more readable and easier to edit.
 
 Here is some sample code:
 
