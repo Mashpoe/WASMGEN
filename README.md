@@ -10,7 +10,6 @@ This tool doesn't let you use WebAssembly in text form, but it does make the bin
 Here is some sample code:
 
 ```c
-	
 wasm_code* code = wasm_code_create();
 
 $wasm(code,
