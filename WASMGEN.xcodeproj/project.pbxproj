@@ -45,7 +45,7 @@
 		2AD9DF5022EACB0E008CD08A = {
 			isa = PBXGroup;
 			children = (
-				2AD9DF5B22EACB0E008CD08A /* WASMGEN */,
+				2AD9DF5B22EACB0E008CD08A /* src */,
 				2AD9DF5A22EACB0E008CD08A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,7 +58,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2AD9DF5B22EACB0E008CD08A /* WASMGEN */ = {
+		2AD9DF5B22EACB0E008CD08A /* src */ = {
 			isa = PBXGroup;
 			children = (
 				2AD9DF5C22EACB0E008CD08A /* main.c */,
@@ -66,7 +66,7 @@
 				2A5F238522EBCF5F00439CA5 /* wasm_code.h */,
 				2A5F238622EBD45800439CA5 /* wasm_code.c */,
 			);
-			path = WASMGEN;
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
