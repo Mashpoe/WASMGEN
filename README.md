@@ -107,3 +107,13 @@ $wasm(code,
 The code above will produce the exact same WebAssembly, but it's broken up into sections to make it more readable.
 
 You can print the entire WebAssembly buffer via `wasm_code_print(code);` and you can write the buffer to a file via `wasm_code_output(code, "output.wasm");`.
+
+Sample output for the above code:
+
+```
+offset: 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+------:------------------------------------------------
+000000: 00 61 73 6D 01 00 00 00 01 07 01 60 02 7F 7F 01 
+000010: 7F 03 02 01 00 07 07 01 03 61 64 64 00 00 0A 09 
+000020: 01 07 00 20 00 20 01 6A 0B 
+```
