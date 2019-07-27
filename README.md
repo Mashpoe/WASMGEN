@@ -104,6 +104,6 @@ $wasm(code,
 
 ```
 
-The code above will produce the exact same WebAssembly, but it is broken up into sections to make it more readable.
+The code above will produce the exact same WebAssembly, but it's broken up into sections to make it more readable.
 
 You can print the entire WebAssembly buffer via `wasm_code_print(code);` and you can write the buffer to a file via `wasm_code_output(code, "output.wasm");`.
