@@ -24,7 +24,7 @@ $wasm(code,
 	  $sec_func, 0x02,			    // function section, size of 0x02
 	  0x01, 0x00,				        // one (0x01) function, function 0 signature index
 
-	  $sec_export, 0x07,		    // export section, guess size of 0x07
+	  $sec_export, 0x07,		    // export section, size of 0x07
 	  0x01, 0x03,				        // number of exports (0x01), string size of 3 (0x03) chars
 		'a','d','d',			        // export name string (add)
 	  0x00, 0x00,				        // export kind, export func
