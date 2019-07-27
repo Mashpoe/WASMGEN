@@ -131,3 +131,8 @@ wasm_code_add(code, str, strlen(str));
 ```
 
 You can actually pass any sequence of bytes to a WebAssembly code buffer this way, as the `$wasm` statements just get converted to these calls by the preprocessor.
+
+# Resources
+The code pretty much documents itself; you can see all of the predefined macros and their hex values side-by-side in `wasm_macros.h`.
+
+There is also a helpful WebAssembly demo [here](https://webassembly.github.io/wabt/demo/wat2wasm/), which shows side-by-side comparisons between WebAssembly in text-format and its commented binary counterpart.
